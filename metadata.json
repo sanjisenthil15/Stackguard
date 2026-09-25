@@ -1,0 +1,6 @@
+{
+  "name": "StackGuard AIF - Multi-Strategy Risk & Execution Broker",
+  "description": "Real-time risk orchestration and multi-strategy execution broker dashboard for Indian Category III AIF / SIF fund managers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
