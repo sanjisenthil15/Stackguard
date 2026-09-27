@@ -62,6 +62,12 @@ export const TopHeader: React.FC = () => {
           </span>
         </div>
 
+        {/* Center/Left: Backend & Regime */}
+        <div className="hidden lg:flex items-center space-x-1.5 px-2 py-0.5 rounded text-[10px] font-mono bg-[#0A0F1A] border border-[#1E293B] text-[#34D399]">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse" />
+          <span>API: NODE/EXPRESS (REST)</span>
+        </div>
+
         {/* Regime Toggle */}
         <button
           onClick={cycleRegime}
